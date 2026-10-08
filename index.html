@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Untuk Kamu, Sayang ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- =========================================
+         BACKGROUND
+    ========================================== -->
+
+    <div id="hearts"></div>
+
+    <div class="stars"></div>
+
+
+    <!-- =========================================
+         OPENING
+    ========================================== -->
+
+    <section id="opening">
+
+        <div class="opening-content">
+
+            <div class="small-text">
+                SEBUAH SURAT KECIL DARIKU
+            </div>
+
+            <h1>
+                Untuk Kamu,
+                <span>Sayang ❤️</span>
+            </h1>
+
+            <p>
+                Ada sesuatu yang ingin aku sampaikan.
+                <br>
+                Bukan sekadar lewat chat.
+            </p>
+
+
+            <!-- AMplop -->
+
+            <div class="envelope-wrapper">
+
+                <div class="envelope">
+
+                    <div class="envelope-back"></div>
+
+                    <div class="letter-preview">
+                        <span>Untuk Kamu ❤️</span>
+                    </div>
+
+                    <div class="envelope-front"></div>
+
+                    <div class="envelope-flap"></div>
+
+                    <div class="envelope-heart">
+                        ❤️
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <button class="main-button" onclick="openLetter()">
+                💌 Buka Suratku
+            </button>
+
+            <p class="hint">
+                Klik amplopnya atau tombol di atas
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         MAIN WEBSITE
+    ========================================== -->
+
+    <main id="website">
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="small-text">
+                    UNTUK PEREMPUAN YANG AKU CINTAI
+                </div>
+
+                <h2>
+                    Hai,
+                    <span id="girlName">Sayang</span> ❤️
+                </h2>
+
+                <p>
+                    Kalau kamu sedang membaca ini,
+                    berarti ada seseorang yang ingin
+                    mengatakan sesuatu yang mungkin
+                    selama ini belum cukup sering dia katakan.
+                </p>
+
+                <div class="scroll">
+                    ↓ scroll perlahan ↓
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             LOVE COUNTER
+        ========================================== -->
+
+        <section class="counter-section">
+
+            <div class="section-title">
+                <span>OUR STORY</span>
+
+                <h2>
+                    Sudah sejauh ini
+                    <i>kita berjalan.</i>
+                </h2>
+            </div>
+
+
+            <div class="counter-box">
+
+                <p>
+                    Kita mulai cerita ini sejak
+                </p>
+
+                <h3 id="startDate">
+                    01 Januari 2026
+                </h3>
+
+
+                <div class="counter">
+
+                    <div>
+                        <strong id="days">0</strong>
+                        <span>Hari</span>
+                    </div>
+
+                    <div>
+                        <strong id="hours">0</strong>
+                        <span>Jam</span>
+                    </div>
+
+                    <div>
+                        <strong id="minutes">0</strong>
+                        <span>Menit</span>
+                    </div>
+
+                    <div>
+                        <strong id="seconds">0</strong>
+                        <span>Detik</span>
+                    </div>
+
+                </div>
+
+                <p class="counter-bottom">
+                    dan aku masih ingin menambah
+                    lebih banyak cerita bersama kamu. ❤️
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             SURAT
+        ========================================== -->
+
+        <section class="letter-section">
+
+            <div class="paper">
+
+                <div class="paper-decoration">
+                    ❤️
+                </div>
+
+
+                <div class="letter-header">
+                    Untuk perempuan yang paling aku sayang,
+                </div>
+
+
+                <div id="typedLetter" class="typed-letter"></div>
+
+
+                <div class="signature">
+
+                    <span>Dengan seluruh rasa sayangku,</span>
+
+                    <strong>
+                        Yosia ❤️
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             FOTO
+        ========================================== -->
+
+        <section class="memories">
+
+            <div class="section-title">
+
+                <span>OUR MEMORIES</span>
+
+                <h2>
+                    Sedikit tentang
+                    <i>kita.</i>
+                </h2>
+
+            </div>
+
+
+            <div class="gallery">
+
+                <div class="memory">
+
+                    <img src="foto/foto1.jpg">
+
+                    <div class="memory-caption">
+                        <span>01</span>
+
+                        <p>
+                            Salah satu senyum
+                            yang selalu aku suka.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="memory">
+
+                    <img src="foto/foto2.jpg">
+
+                    <div class="memory-caption">
+                        <span>02</span>
+
+                        <p>
+                            Moment sederhana
+                            yang ternyata berarti.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="memory">
+
+                    <img src="foto/foto3.jpg">
+
+                    <div class="memory-caption">
+                        <span>03</span>
+
+                        <p>
+                            Kenangan yang ingin
+                            aku simpan selamanya.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             REASONS
+        ========================================== -->
+
+        <section class="reasons">
+
+            <div class="section-title">
+
+                <span>WHY YOU?</span>
+
+                <h2>
+                    Kenapa harus
+                    <i>kamu?</i>
+                </h2>
+
+            </div>
+
+
+            <div class="reason-grid">
+
+                <div class="reason">
+
+                    <div class="reason-icon">
+                        ❤️
+                    </div>
+
+                    <h3>
+                        Karena kamu berbeda
+                    </h3>
+
+                    <p>
+                        Ada sesuatu tentang kamu
+                        yang membuat aku merasa nyaman
+                        menjadi diriku sendiri.
+                    </p>
+
+                </div>
+
+
+                <div class="reason">
+
+                    <div class="reason-icon">
+                        🥰
+                    </div>
+
+                    <h3>
+                        Karena kamu membuatku bahagia
+                    </h3>
+
+                    <p>
+                        Bahkan percakapan sederhana
+                        dengan kamu bisa membuat
+                        hari yang biasa menjadi berarti.
+                    </p>
+
+                </div>
+
+
+                <div class="reason">
+
+                    <div class="reason-icon">
+                        🏠
+                    </div>
+
+                    <h3>
+                        Karena kamu terasa seperti rumah
+                    </h3>
+
+                    <p>
+                        Di antara banyak orang,
+                        ada rasa nyaman yang hanya
+                        aku rasakan ketika bersama kamu.
+                    </p>
+
+                </div>
+
+
+                <div class="reason">
+
+                    <div class="reason-icon">
+                        🌷
+                    </div>
+
+                    <h3>
+                        Karena aku memilihmu
+                    </h3>
+
+                    <p>
+                        Bukan karena kamu sempurna,
+                        tapi karena aku ingin terus
+                        mengenal dan mencintai kamu.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             PROMISE
+        ========================================== -->
+
+        <section class="promise">
+
+            <div class="promise-content">
+
+                <div class="quote">
+                    “
+                </div>
+
+                <h2>
+                    Aku tidak menjanjikan
+                    hubungan yang sempurna.
+                </h2>
+
+                <p>
+                    Tapi aku ingin menjadi seseorang
+                    yang tetap memilih kamu,
+                    bahkan ketika hubungan kita
+                    sedang tidak baik-baik saja.
+                </p>
+
+                <div class="promise-heart">
+                    ♡
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             FINAL QUESTION
+        ========================================== -->
+
+        <section class="final">
+
+            <div class="final-content">
+
+                <div class="final-heart">
+                    ❤️
+                </div>
+
+                <div class="small-text">
+                    SATU PERTANYAAN TERAKHIR
+                </div>
+
+                <h2>
+                    Maukah kamu
+                    <span>tetap bersamaku?</span>
+                </h2>
+
+                <p>
+                    Bukan cuma untuk hari ini.
+                    <br>
+                    Tapi untuk banyak hari
+                    yang masih ingin kita lalui bersama.
+                </p>
+
+
+                <div class="answer-buttons">
+
+                    <button
+                        class="yes-button"
+                        onclick="yesAnswer()">
+
+                        ❤️ Iya, aku mau
+
+                    </button>
+
+
+                    <button
+                        class="love-button"
+                        onclick="loveAnswer()">
+
+                        🥺 Aku sayang kamu
+
+                    </button>
+
+                </div>
+
+
+                <div id="answer"></div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <div>
+                Dibuat dengan ❤️
+            </div>
+
+            <strong>
+                untuk perempuan yang paling aku sayang.
+            </strong>
+
+            <p>
+                — Yosia
+            </p>
+
+        </footer>
+
+    </main>
+
+
+
+    <!-- MUSIC -->
+
+    <audio id="music" loop>
+
+        <!--
+        MASUKKAN FILE MUSIK KAMU DI SINI
+
+        contoh:
+
+        <source src="music.mp3" type="audio/mpeg">
+
+        -->
+
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
